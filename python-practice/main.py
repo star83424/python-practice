@@ -7,7 +7,7 @@ from none_zero_relative_order import solve_relative_order
 from sorting import SortUtils
 from binary_search_tree import *
 from call_by_sharing_practice import *
-from arga_kwargs import *
+from args_kwargs import *
 
 
 def add(a, b):
@@ -72,16 +72,18 @@ if __name__ == '__main__':
 
     #2021/05/23
     kw = {'k1': 10, 'k2': 11}
-    print("------------")
-    fun(1, kw)
-    print("------------")
-    fun(1, *kw)
-    print("------------")
-    fun(1, **kw)
-    print("------------")
-    fun(1, *kw.values())
+    # print("------------")
+    # fun(1, kw)
+    # print("------------")
+    # fun(1, *kw)
+    # print("------------")
+    # fun(1, **kw)
+    # print("------------")
+    # fun(1, *kw.values())
 
-
+    # fun_sep_kws_with_star(1, 2, kw2=4, kw1=3, kw3=5)  # 1 2 3 4
+    # fun_sep_kws_with_args_and_then_kwargs(1, 2, 3, 4, 5, kw1=6, kw2=7, kw3=8, kw4=9)
+    # fun_sep_kws_with_args_and_then_kwargs(1, 2, 3, 4, 5, kw1=6, kw3=7, kw2=8, kw4=9)
 
 
 
