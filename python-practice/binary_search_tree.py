@@ -1,3 +1,5 @@
+from sorting import SortUtils
+
 class Node:
     def __init__(self, val=None, left=None, right=None):
         self.val = val
@@ -77,3 +79,17 @@ def binary_search_in_sorted_list(nums, target, i = None, j = None):
 
 
 """
+
+
+class BST:
+    @staticmethod
+    def main(case1):
+        root = build_binary_search_tree(case1)
+        traversal(root)
+
+        # Binary search
+        test = [8, 2, 4, 1, 3]
+        print(test)
+        SortUtils.heap_sort(test)
+        print(test)
+        binary_search_in_sorted_list(test, 5)

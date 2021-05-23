@@ -90,3 +90,9 @@ def solve_relative_order():
 
     RelativeOrderSolver.relative_order(case2[:])
     RelativeOrderSolver.relative_order_one_by_one(case2[:])
+
+
+class NoneZeroRelativeOrderList:
+    @staticmethod
+    def main():
+        solve_relative_order()

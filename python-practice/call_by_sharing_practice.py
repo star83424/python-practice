@@ -53,3 +53,9 @@ def one_and_none():
     print(f'node id : {id(node)}, number id: {id(n)}')
     print(f'node: {node.val}, number: {n}')
     # Result: only node will change its value, 1 stays 1.
+
+
+class CallBySharing:
+    @staticmethod
+    def main():
+        one_and_node_one()

@@ -1,4 +1,3 @@
-from collections import deque
 def swap(nums, i, j):
     tmp = nums[i]
     nums[i] = nums[j]
@@ -165,6 +164,24 @@ class Node:
 """
 
 
-def queue():
-    que = deque([1, 2, 3])
-    print(que.popleft())
+class Sorting:
+    @staticmethod
+    def main(case):
+        # 2021/05/09
+        # print(SortUtils.bubble_sort(case1[:]))
+        # print("----")
+        # print(SortUtils.selection_sort(case1[:]))
+        # print("----")
+        # print(SortUtils.insertion_sort(case1[:]))
+        # print("----")
+        # print(SortUtils.quick_sort(case1[:]))
+        # print("----")
+        # print(SortUtils.merge_sort(case1[:]))
+        # ----------------------------------------------------------
+
+        # 2021/05/10
+        for i in range(20 - 1, -1, -1):
+            print(i)
+
+        print("----")
+        print(SortUtils.heap_sort(case[:]))
