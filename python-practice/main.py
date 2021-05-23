@@ -7,7 +7,8 @@ from none_zero_relative_order import NoneZeroRelativeOrderList
 from sorting import Sorting
 from binary_search_tree import BST
 from call_by_sharing_practice import CallBySharing
-from args_kwargs import ArgsKargs
+from args_kwargs import ArgsKwargs
+from data_structure import DataStructure
 
 
 def add(a, b):
@@ -49,11 +50,7 @@ if __name__ == '__main__':
 
     # 2021/05/23
     # ArgsKwargs.main()
-
-    vec = [-4, -2, 0, 2, 4]
-    gen = (x * 2 for x in vec)
-    print(type(gen))
-    print(type([gen]))
+    DataStructure.main()
 
 
 
