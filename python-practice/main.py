@@ -9,6 +9,9 @@ from binary_search_tree import BST
 from call_by_sharing_practice import CallBySharing
 from args_kwargs import ArgsKwargs
 from data_structure import DataStructure
+from wearisma import *
+from collections import Counter
+from line_20210708 import LineCommonPlatform
 
 
 def add(a, b):
@@ -28,7 +31,11 @@ def operate(a, b, operation):
 
 if __name__ == '__main__':
     """ Main """
-    case1 = [3, 1, 5, 3, 4, 2, 1, 6, 7, 8, 4, 10, 12, 8, 9, 0, 11]
+
+    LineCommonPlatform.main()
+
+
+    # case1 = [3, 1, 5, 3, 4, 2, 1, 6, 7, 8, 4, 10, 12, 8, 9, 0, 11]
     # 2021/05/09
     # print_hi('PyCharm')
     # print_list()
@@ -50,10 +57,35 @@ if __name__ == '__main__':
 
     # 2021/05/23
     # ArgsKwargs.main()
-    DataStructure.main()
+    # DataStructure.main()
+
+    # 2021/05/24
+    # LCS.main()
 
 
+    # print(multi_substring("aba"))
+    # print("-------")
+    # print(multi_substring("abab"))
+    # print("-------")
+    # print(multi_substring("abcabcabcabc"))
 
+    # print(str_compression("aabcccccaaa"))
+    # print("-------")
+    # print(str_compression("asdfghjkkeryui"))
+
+    # d = { "a":1, "b":1, "c": 3}
+    # d2 = { "d":1, "e":1, "f": 3}
+    # print([ i for i in d.values()])
+    # print(type(d.keys()))
+    # print(set([1, 2, 1]))
+    #
+    # print(Counter(Counter(d).values()))
+    #
+    # print(Counter(Counter(d2).values()))
+    #
+    # print(Counter(Counter(d).values()) == Counter(Counter(d).values()))
+    #
+    # print(Counter(d).keys() == Counter(d).keys())
 
 
 
